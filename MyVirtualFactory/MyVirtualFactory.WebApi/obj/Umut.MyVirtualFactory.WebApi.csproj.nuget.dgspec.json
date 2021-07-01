@@ -1,0 +1,540 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.WebApi\\Umut.MyVirtualFactory.WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Application\\Umut.MyVirtualFactory.Application.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Application\\Umut.MyVirtualFactory.Application.csproj",
+        "projectName": "Umut.MyVirtualFactory.Application",
+        "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Application\\Umut.MyVirtualFactory.Application.csproj",
+        "packagesPath": "C:\\Users\\Umut\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Umut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Domain\\Umut.MyVirtualFactory.Domain.csproj": {
+                "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Domain\\Umut.MyVirtualFactory.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Domain\\Umut.MyVirtualFactory.Domain.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Domain\\Umut.MyVirtualFactory.Domain.csproj",
+        "projectName": "Umut.MyVirtualFactory.Domain",
+        "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Domain\\Umut.MyVirtualFactory.Domain.csproj",
+        "packagesPath": "C:\\Users\\Umut\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Umut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Identity\\Umut.MyVirtualFactory.Infrastructure.Identity.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Identity\\Umut.MyVirtualFactory.Infrastructure.Identity.csproj",
+        "projectName": "Umut.MyVirtualFactory.Infrastructure.Identity",
+        "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Identity\\Umut.MyVirtualFactory.Infrastructure.Identity.csproj",
+        "packagesPath": "C:\\Users\\Umut\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Umut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Application\\Umut.MyVirtualFactory.Application.csproj": {
+                "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Application\\Umut.MyVirtualFactory.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "microsoft.extensions.dependencyinjection": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Persistence\\Umut.MyVirtualFactory.Infrastructure.Persistence.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Persistence\\Umut.MyVirtualFactory.Infrastructure.Persistence.csproj",
+        "projectName": "Umut.MyVirtualFactory.Infrastructure.Persistence",
+        "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Persistence\\Umut.MyVirtualFactory.Infrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Umut\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Umut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Application\\Umut.MyVirtualFactory.Application.csproj": {
+                "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Application\\Umut.MyVirtualFactory.Application.csproj"
+              },
+              "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Domain\\Umut.MyVirtualFactory.Domain.csproj": {
+                "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Domain\\Umut.MyVirtualFactory.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Shared\\Umut.MyVirtualFactory.Infrastructure.Shared.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Shared\\Umut.MyVirtualFactory.Infrastructure.Shared.csproj",
+        "projectName": "Umut.MyVirtualFactory.Infrastructure.Shared",
+        "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Shared\\Umut.MyVirtualFactory.Infrastructure.Shared.csproj",
+        "packagesPath": "C:\\Users\\Umut\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Umut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Application\\Umut.MyVirtualFactory.Application.csproj": {
+                "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Application\\Umut.MyVirtualFactory.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.WebApi\\Umut.MyVirtualFactory.WebApi.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.WebApi\\Umut.MyVirtualFactory.WebApi.csproj",
+        "projectName": "Umut.MyVirtualFactory.WebApi",
+        "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.WebApi\\Umut.MyVirtualFactory.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Umut\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Umut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Application\\Umut.MyVirtualFactory.Application.csproj": {
+                "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Application\\Umut.MyVirtualFactory.Application.csproj"
+              },
+              "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Identity\\Umut.MyVirtualFactory.Infrastructure.Identity.csproj": {
+                "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Identity\\Umut.MyVirtualFactory.Infrastructure.Identity.csproj"
+              },
+              "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Persistence\\Umut.MyVirtualFactory.Infrastructure.Persistence.csproj": {
+                "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Persistence\\Umut.MyVirtualFactory.Infrastructure.Persistence.csproj"
+              },
+              "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Shared\\Umut.MyVirtualFactory.Infrastructure.Shared.csproj": {
+                "projectPath": "D:\\Development\\Projeler\\WebApi\\MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory\\Umut.MyVirtualFactory.Infrastructure.Shared\\Umut.MyVirtualFactory.Infrastructure.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
